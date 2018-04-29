@@ -1,0 +1,47 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  height: 100;
+  background-color: #dadada;
+  font-size: 10px;
+  display: block;
+  margin: 8px;
+}
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+@media screen and (min-width: 991px){
+   div {
+    margin: 1%;
+    width: 24%;
+  }
+
+.container {
+  width: 100%;
+}
+
+.preview {
+width: 21%;
+}
+
+.baku {
+  background: ./images/baku.jpg;
+}
+.london {
+  background: ./images/london.png;
+}
+.madrid {
+  background: ./images/madrid.jpg;
+}
+.rome {
+  background: ./images/rome.jpg;
+}
+section {
+  display: inline-block;
+  width: auto;
+  background-color:none;
+}
